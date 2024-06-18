@@ -39,7 +39,30 @@ input, textarea {
     padding: .75em;
     margin: .5em 0 2.5em;
     color: white;
+    outline: 0;
 }
+
+/*
+input:invalid, textarea:invalid {
+    border-bottom: 2px solid red;
+    }
+    
+    input:valid, textarea:valid {
+        border-bottom: 2px solid green;
+        } */
+        
+input:focus, textarea:focus {
+    border-bottom: 2px solid #8e999a;
+    background-color: #272a27;
+}
+
+input:valid:focus, textarea:valid:focus {
+    border-bottom: 2px solid #0ec72a;
+}   
+
+input:invalid:focus, textarea:invalid:focus {
+    border-bottom: 2px solid #ff000d;
+}   
 
 legend {
     padding: .5em;
