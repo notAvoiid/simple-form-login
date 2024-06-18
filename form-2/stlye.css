@@ -3,6 +3,7 @@
 }
 
 body {
+    font-family: Roboto, sans-serif;
     margin: 0;
     display: flex;
     justify-content: center;
@@ -26,9 +27,30 @@ body {
 }
 
 .form__title {
-    font-family: Roboto, sans-serif;
     font-weight: 300;
     font-size: 2rem;
     color: var(--login-primary-color);
     padding-top: 2rem;
+}
+
+.form__label {
+    font-size: .8rem;
+    text-transform: uppercase;
+    font-weight: 300;
+}
+
+.form__input {
+    padding: .4rem 0;
+    font-size: 1.2rem;
+    border-radius: 0;
+    border: none;
+    border-bottom: 1px solid var(--login-primary-color);
+    outline: 0;
+    margin-bottom: .8rem;
+    transition: padding-left .1s;
+}
+
+.form__input:focus {
+    outline: 2px solid var(--login-primary-color);
+    padding-left: .3rem;
 }
