@@ -54,3 +54,36 @@ body {
     outline: 2px solid var(--login-primary-color);
     padding-left: .3rem;
 }
+
+.btn-primary {
+    background-color: var(--login-primary-color);
+    color: white;
+}
+
+.btn-secondary {
+    color: var(--login-primary-color);
+}
+
+.btn {
+    text-transform: uppercase;
+    font-size: 1rem;
+    border-radius: 3px;
+    border: none;
+    outline: none;
+    padding: .8rem 1.2rem;
+    text-decoration: none;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.form__action {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.form__action__aside {
+    font-size: 85.rem;
+    flex-grow: 1;
+    text-align: right;
+}
